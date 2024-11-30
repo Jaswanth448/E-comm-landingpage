@@ -1,3 +1,4 @@
+
 .nav-item{
     font-size:medium;
 }
@@ -9,4 +10,12 @@
 #jk{
     
     border: 1px solid;
+}
+button{
+    border
+    background-color: gray;
+}
+li{
+    padding: 28px;
+
 }
