@@ -19,3 +19,6 @@ li{
     padding: 28px;
 
 }
+.img1:hover{
+    transform:translate(100px);
+}
