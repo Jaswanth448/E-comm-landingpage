@@ -2,6 +2,9 @@
 .nav-item{
     font-size:medium;
 }
+#img1{
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.081);
+}
 #login{
     border:1px solid  grey;
 
@@ -19,9 +22,12 @@ li{
     padding: 28px;
 
 }
-.img1:hover{
-    transform:translate(100px);
+#img2{
+    background-image: url(./projectPhotes/product-2-1.jpg);
 }
-@media screen {
-    
+
+
+
+#img2:hover{
+background-image: url(./projectPhotes/product-2-2.jpg);
 }
