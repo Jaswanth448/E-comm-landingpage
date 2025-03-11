@@ -18,9 +18,9 @@
 
 <body>
   <!-- nav bar -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="https://www.achieversit.com/assets/images/logo-white.png" alt=""></a>
+  <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container container-fluid">
+      <a class="navbar-brand" href="#"><img src="./projectPhotes/logo.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -141,9 +141,11 @@
   <div class="container">
     <div class="row  row-cols-3 ">
       <div class="col ">
-        <div class="card" id="img1">
-          <div class="card-body">
-            <h5 class="card"><img src="./projectPhotes/product-1-1.jpg" alt=""></h5>
+        <div class="card">
+          <div class="product-img">
+            <div class="card " class="imgs"><img src="./projectPhotes/product-1-1.jpg" alt="">
+              <img src="./projectPhotes/product-1-2.jpg" alt="" class="real-img">
+            </div>
             <p class="card-text">clothing</p>
             <p>
             <h3>Colorful Pattern Shirts</h3>
@@ -593,52 +595,105 @@
         </div>
       </div>
     </div>
-
   </div>
-  <br>
-  <div class="container">
-    <div class="col">
+  <div>
+    <!--  -->
+    <div class="container ">
       <div class="row row-col-3">
-        <div class="col-4">
-          <div class="card mb-3" style="border: none;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./projectPhotes/showcase-img-1.jpg" height="100px" alt="...">
+        <div class="col">
+          <div class="row">
+            <div class="col">
+              <div class="card mb-3" style="border: none;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./projectPhotes/showcase-img-1.jpg" height="100px" alt="...">
+                  </div>
+                  <div class="col ms-0">
+                    <div class="card-body " style="align-content: center;">
+                      <p>Floral Print Casual Cotton Dress</p>
+                      <p class="card-text">$238.85 <span class="small"><del>$245.8</del></span></p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col ms-0">
-                <div class="card-body " style="align-content: center;">
-                  <p>Floral Print Casual Cotton Dress</p>
-                  <p class="card-text">$238.85 <span class="small"><del>$245.8</del></span></p>
+            </div>
+            <div class="col-12">
+              <div class="card mb-3" style="border: none;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./projectPhotes/showcase-img-2.jpg" height="100px" alt="...">
+                  </div>
+                  <div class="col ms-0">
+                    <div class="card-body " style="align-content: center;">
+                      <p>Floral Print Casual Cotton Dress</p>
+                      <p class="card-text">$238.85 <span class="small"><del>$245.8</del></span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card mb-3" style="border: none;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./projectPhotes/showcase-img-3.jpg" height="100px" alt="...">
+                  </div>
+                  <div class="col ms-0">
+                    <div class="card-body " style="align-content: center;">
+                      <p>Floral Print Casual Cotton Dress</p>
+                      <p class="card-text">$238.85 <span class="small"><del>$245.8</del></span></p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-4">
-          <div class="card mb-3" style="border: none;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./projectPhotes/showcase-img-2.jpg" height="100px" alt="...">
-              </div>
-              <div class="col ms-0">
-                <div class="card-body " style="align-content: center;">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">$238.85 <span class="small"><del>$245.8</del></span></p>
+
+        <div class="col">
+          <div class="row">
+            <div class="col-12">
+              <div class="card mb-3" style="border: none;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./projectPhotes/showcase-img-7.jpg" height="100px" alt="...">
+                  </div>
+                  <div class="col ms-0">
+                    <div class="card-body " style="align-content: center;">
+                      <p>Floral Print Casual Cotton Dress</p>
+                      <p class="card-text">$238.85 <span class="small"><del>$245.8</del></span></p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="card mb-3" style="border: none;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./projectPhotes/showcase-img-3.jpg" height="100px" alt="...">
+            <div class="col-12">
+              <div class="card mb-3" style="border: none;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./projectPhotes/showcase-img-8.jpg" height="100px" alt="...">
+                  </div>
+                  <div class="col ms-0">
+                    <div class="card-body " style="align-content: center;">
+                      <p>Floral Print Casual Cotton Dress</p>
+                      <p class="card-text">$238.85 <span class="small"><del>$245.8</del></span></p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col ms-0">
-                <div class="card-body " style="align-content: center;">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">$238.85 <span class="small"><del>$245.8</del></span></p>
+            </div>
+            <div class="col-12">
+              <div class="card mb-3" style="border: none;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./projectPhotes/showcase-img-9.jpg" height="100px" alt="...">
+                  </div>
+                  <div class="col ms-0">
+                    <div class="card-body " style="align-content: center;">
+                      <p>Floral Print Casual Cotton Dress</p>
+                      <p class="card-text">$238.85 <span class="small"><del>$245.8</del></span></p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -647,6 +702,9 @@
       </div>
     </div>
   </div>
+  <br>
+
+
 
   <br>
   <!-- sub footer -->
